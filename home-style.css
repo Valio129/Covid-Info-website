@@ -1,0 +1,20 @@
+
+.container-fluid {
+	border: #1D3D90 1px solid;
+	padding: 10px;
+}
+.col-md{
+	
+	border: #E44454 1px solid;
+	padding: 1rem;
+}
+#buttons{
+	background-color: #1D3D90;
+	border-radius: 10px;
+	
+	padding: 4%;
+	
+}
+#world-div{
+	margin-bottom: 5%;
+	}
