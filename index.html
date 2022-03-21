@@ -9,28 +9,26 @@
     <title>Covid-Info</title>
 </head>
 <body>
-  <nav class="navbar-md fixed-top justify-content-end" > 
-    <!-- <img src="images/logo.svg" class="navbar-brand" alt=""> -->
-    
-      <img src="images/logo.svg" class="navbar-brand" alt="">
-      <ul class="navbar-nav" >
-        <!-- <li><img src="images/logo.svg" class="navbar-brand" alt=""></li> -->
-        <li><a href="index.html" class="nav-link" > Начало </a></li>
-        <li><a href="Protect-Covid.html" class="nav-link"> Как да се предпазим </a></li>
-        <li><a href="About-Covid.html" class="nav-link"> COVID-19 </a></li>
-        <li><a href="About-Us.html" class="nav-link"> За нас </a></li>
-      </ul>
-    
-  </nav>
+    <nav role="navigation"  class="nav nav-pills flex-column flex-sm-row navbar-dark bg-primary">
+        <a class="navbar-brand" href="index.html">
+            <img src="images/logo.svg" alt="" width="50" height="54">
+          </a>
+      
+        <a class="flex-sm-fill text-center nav-link text-white size-30 " href="index.html">Начало</a>
+        <a class="flex-sm-fill text-center nav-link text-white size-30 " href="Protect-Covid.html">Как да се предпазим </a>
+        <a class="flex-sm-fill text-center nav-link text-white size-30" href="About-Covid.html">COVID-19</a>
+        <a class="flex-sm-fill text-center nav-link text-white size-30" href="About-Us.html">За нас</a>
+      </nav>
   <div class="container-md ">
     <div class="row">
       <div class="col-md">
-        <h1 class="h1" >Информационната страница относно COVID-19 и мерки за борба с глобалната епидемия.</h1>
+        <h1 class="h1 text-primary font-weight-bold" >Информационната страница относно COVID-19 и мерки за борба с глобалната епидемия.</h1>
        <br>
         <h4 class="h4" > Информацията свързана с вируса идва <br> от различни места и невинаги е вярна. Всичко необходимо, свързано с вирусната инфекция от COVID-19 се намира тук. Предоставената информаця дава отговор на общи въпроси като: Какво представлява вирусът? Как може да се предпазим от него? И още...</h4>
       </div>
-      <div class="col-md">
+      <div class="col-md" id="world-div">
        <img src="images/world.png" class="img-fluid" alt="">
+       <div id="buttons">
         <div class="row justify-content-evenly" >
           <!-- <div class="col" > <img class="img-fluid" src="images/protect_picture.png" alt="">  -->
             <!-- <img src="images/what_is_covid.png" class="img-fluid" alt=""></div> -->
@@ -45,7 +43,7 @@
           <div class="col align-self-start" > <a class="btn btn-danger " href="#" role="button">Научете повече за Covid</a></div>
           <div class="col align-self-end" > <a class="btn btn-outline-warning" href="#" role="button">Средства за борба с вирусa</a> </div>
         </div>
-      
+    </div>
     </div>
   </div>
 
