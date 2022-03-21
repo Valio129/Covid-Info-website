@@ -1,0 +1,13 @@
+:root{
+    --clr-primary: #2E8DE5;
+    --clr-red :  #E44454;
+    --clr-yellow: #F0DE3F;
+    --clr-dark-blue:#1D3D90;
+    --fw-normal: 400;
+    --fw-bold: 600;
+    --fw-black:800;
+    --grid:1fr;
+}
+.container {
+	border: #1D3D90;
+}
